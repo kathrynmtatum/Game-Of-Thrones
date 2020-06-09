@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		523633D4243BABF600B031BC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523633D3243BABF600B031BC /* DetailViewController.swift */; };
+		523633D6243BAF2500B031BC /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523633D5243BAF2500B031BC /* SplashScreenViewController.swift */; };
 		5288C820243AB4F0008AFAE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288C81F243AB4F0008AFAE6 /* AppDelegate.swift */; };
 		5288C822243AB4F0008AFAE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288C821243AB4F0008AFAE6 /* SceneDelegate.swift */; };
 		5288C824243AB4F0008AFAE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288C823243AB4F0008AFAE6 /* ViewController.swift */; };
 		5288C827243AB4F0008AFAE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5288C825243AB4F0008AFAE6 /* Main.storyboard */; };
 		5288C829243AB4F2008AFAE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5288C828243AB4F2008AFAE6 /* Assets.xcassets */; };
 		5288C82C243AB4F2008AFAE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5288C82A243AB4F2008AFAE6 /* LaunchScreen.storyboard */; };
+		5288C834243AC305008AFAE6 /* HouseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288C833243AC305008AFAE6 /* HouseInfo.swift */; };
+		5288C836243AC3B7008AFAE6 /* Houses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5288C835243AC3B7008AFAE6 /* Houses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		523633D3243BABF600B031BC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		523633D5243BAF2500B031BC /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
 		5288C81C243AB4F0008AFAE6 /* GoT-Houses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoT-Houses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5288C81F243AB4F0008AFAE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5288C821243AB4F0008AFAE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		5288C828243AB4F2008AFAE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5288C82B243AB4F2008AFAE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5288C82D243AB4F2008AFAE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5288C833243AC305008AFAE6 /* HouseInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseInfo.swift; sourceTree = "<group>"; };
+		5288C835243AC3B7008AFAE6 /* Houses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Houses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				5288C81F243AB4F0008AFAE6 /* AppDelegate.swift */,
 				5288C821243AB4F0008AFAE6 /* SceneDelegate.swift */,
 				5288C823243AB4F0008AFAE6 /* ViewController.swift */,
+				5288C833243AC305008AFAE6 /* HouseInfo.swift */,
+				5288C835243AC3B7008AFAE6 /* Houses.swift */,
+				523633D3243BABF600B031BC /* DetailViewController.swift */,
+				523633D5243BAF2500B031BC /* SplashScreenViewController.swift */,
 				5288C825243AB4F0008AFAE6 /* Main.storyboard */,
 				5288C828243AB4F2008AFAE6 /* Assets.xcassets */,
 				5288C82A243AB4F2008AFAE6 /* LaunchScreen.storyboard */,
@@ -140,6 +152,10 @@
 			files = (
 				5288C824243AB4F0008AFAE6 /* ViewController.swift in Sources */,
 				5288C820243AB4F0008AFAE6 /* AppDelegate.swift in Sources */,
+				523633D6243BAF2500B031BC /* SplashScreenViewController.swift in Sources */,
+				5288C836243AC3B7008AFAE6 /* Houses.swift in Sources */,
+				523633D4243BABF600B031BC /* DetailViewController.swift in Sources */,
+				5288C834243AC305008AFAE6 /* HouseInfo.swift in Sources */,
 				5288C822243AB4F0008AFAE6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
